@@ -16,7 +16,7 @@ background-color: indianred;
 
 
 .container {
-	margin-left: px;
+	margin-left: 25px;
 	font-family: Verdana;
 
 
@@ -53,6 +53,7 @@ background-color: indianred;
 	color: lightcyan;
 	overflow: scroll;
 	font-size: 15px;
+
 
 
 
