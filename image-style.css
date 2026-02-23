@@ -1,60 +1,135 @@
 body {
  	background-image: url(Midland.png);
  	background-repeat: no-repeat;
- 	background-size: cover;
+ 	background-size: 100%;
  	background-attachment: fixed;
  	background-color: #0C4591;
- 	\
+ 	max-width: 1000px;
+ 	
  }
 
-.container1 {
 
-background-color: indianred;
-
-
-}
 
 
 .container {
 	margin-left: 25px;
 	font-family: Verdana;
+	display: flex;
+	justify-content: left;
+	text-align: left;
+	flex-direction: column;
+	line-height: 75px;
+
 
 
 
 }
 
-.section-one {
+
+.container-section-one {
 	color: lightcyan;
 	font-size: 75px;
-	line-height: 10px;
-	display: flex;
-	justify-content: left;
-	text-align: left;
-	hieght: 200px;
+	height: 175px;
 	
 
 
 }
 
-
-.section-two {
-	font-size: 30px;
-	line-height: 75px;
-	display: flex;
-	justify-content: left;
-	text-align: left;
-	overflow: scroll;
-	
+.container-section-four {
+	font-size: 50px;
+	width: 500px;
+	color: skyblue;
+	line-height: 200px;
+	filter: opacity(100%);
 	
 
 }
+a {
+	color: skyblue;
+	text-decoration: none;
+}
 
-.section-three {
+a:hover { 
 	color: lightcyan;
-	overflow: scroll;
+	text-decoration: underline;
+ }
+
+.container-section-two {
+	font-size: 30px;
+	
+
+	
+
+}
+
+.container-section-three {
+	color: lightcyan;
 	font-size: 15px;
-
-
+	margin-bottom: 75px;
+	line-height: 30px;
+	
 
 
 }
+
+@media screen and (max-width: 1035px) {
+
+	.container {
+		line-height: 50px;
+	}
+
+	.container-section-one {
+		font-size: 35px;
+		height: 50px;
+
+
+	}
+	
+	.container-section-four {
+		font-size: 25px
+
+	}
+
+	.container-section-two {
+		font-size: 20px
+
+	}
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 420px) {
+
+	.container {
+		line-height: 30px;
+	}
+
+	.container-section-one {
+		font-size: 30px;
+		height: 5px;
+
+
+
+	}
+	
+	.container-section-four {
+		font-size: 25px
+
+	}
+
+	.container-section-two {
+		font-size: 15px
+
+	}
+
+
+}
+
+
+
+
